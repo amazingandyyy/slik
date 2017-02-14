@@ -1,0 +1,189 @@
+body {
+    padding-top: 100px;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.container {
+    min-width: 1200px;
+}
+
+nav {
+    z-index: 99;
+    background: #39C0BA;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    min-width: 650px;
+}
+
+.logo {
+    font-size: 2.6rem;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 5px;
+    float: left;
+}
+
+.nav-item{
+    cursor: pointer;
+    text-transform: capitalize;
+    padding: 25px 25px;
+    float: left;
+}
+
+.nav-item.active, .nav-item:hover{
+    background: #33B0AC;
+}
+
+.profile-item {
+    float: right;
+    padding-right: 50px;
+    width: 300px;
+    margin-top: 10px;
+    height: 100%;
+}
+.info {
+    margin-top: 4px;
+    float: right;
+    text-align: right;
+}
+.info .credit {
+    font-size: 0.7rem;
+}
+.photo {
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.photo img {
+    width: 50px;
+}
+
+.filter{
+    font-size: 1.2rem;
+    padding: 50px 0px 20px 0px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.search {
+    background: none;
+}
+.filter input {
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.filter .button {
+    text-transform: capitalize;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.tag-container {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.tag-container .tag {
+    text-transform: capitalize;
+    border: 1.6px solid #39C0BA;
+    color: #39C0BA;
+    font-weight: 600;
+    font-size: 0.7rem;
+    padding: 8px 15px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+.tag-container .advance {
+    color: #39C0BA;
+    font-size: 0.7rem;
+    display: inline-block;
+    float: right;
+}
+
+.tag-container .tag span {
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.tag-container .tag:hover {
+    color: white;
+    background: #39C0BA;
+    cursor: pointer;
+}
+.tag-container .tag span:hover {
+    opacity: 0.7;
+}
+.action-containert {
+    text-align: left;
+    height: 100px;
+    padding-right: 20px;
+}
+.action-containert button {
+    cursor: pointer;
+    border-radius: 3px;
+    background: white;
+    text-transform: capitalize;
+    border: 1.8px solid #39C0BA;
+    color: #39C0BA;
+    padding: 5px 15px;
+    letter-spacing: 0.4px;
+    text-align: center;
+    float: right;
+    margin: 10px 0px 10px 20px;
+}
+.action-containert button.light {
+    color: white;
+    background: #39C0BA;
+}
+.action-containert button.light:hover, .action-containert button.light:active {
+    color: white;
+}
+.data-table{
+    padding-right: 20px;
+}
+
+table{
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
+}
+
+.pagination-section th{
+    font-weight: 600;
+    font-size: 0.7rem;
+    color: #39C0BA;
+    cursor: pointer;
+}
+.pagination-section td select{
+    border: none;
+    outline: none;
+    background: none;
+}
+.pagination-section td{
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.7rem;
+    color:rgba(0,0,0,0.6);
+    cursor: pointer;
+}
+.pagination-section span{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.pagination-section span.move:hover{
+    color: black;
+}
+
+footer {
+    height: 100px;
+}
